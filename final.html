@@ -1,41 +1,49 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Me Namora?!</title>
-        <link rel="shortcut icon" href="assets/css/images/favicon.png">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- CSS -->
-        <link rel="stylesheet" href="assets/css/main_final.css" />
+<head>
+	<title>Me Namora?!</title>
+	<link rel="shortcut icon" href="assets/css/images/favicon.png">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="main">
-                <!-- Header -->
-				<header id="header">
-				    <h1>Obrigado Princesa!</h1>
-				    <p>"Eu já me preparei demais e declaro. Agora é a hora"</p>
-				    <p>"Vem depressa, não demora. Meu sol. Saiba você é, meu sol"</p>
-				    <nav>
-				    <nav>
-				        <ul>
-                            <li><a class="icon fa-heart faa-pulse animated" ><span class="label"></span></a></li>
-				        </ul>
-				    </nav>
-				</header>
-				<!-- Footer -->
-				<footer id="footer">
-				    <p> Ana Clara &ensp;<span class="icon fa-heart"></span>&ensp; Arthur Andrade </p>
-				</footer>
-			</div>
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/main_final.css" />
+
+</head>
+
+<body class="loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="main">
+			<!-- Header -->
+			<header id="header">
+				<h1>Obrigado Princesa!</h1>
+				<p>"Mal posso esperar para viver muitos momentos felizes ao seu lado."</p>
+				<p>"Eu quero partilhar a vida boa com você" <span class="icon fa-heart"></span></p>
+				<nav>
+					<nav>
+						<ul>
+							<li><a class="icon fa-heart faa-pulse animated"><span class="label"></span></a></li>
+						</ul>
+					</nav>
+			</header>
+			<!-- Footer -->
+			<footer id="footer">
+				<p> Ana Clara &ensp;<span class="icon fa-heart"></span>&ensp; Arthur Andrade </p>
+			</footer>
+			<audio id="music" src="./assets/music/Rubel - Partilhar.mp3" autoplay loop controls>
+				Seu navegador não suporta o elemento de áudio.
+			</audio>
 		</div>
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+	</div>
+	<script>
+		window.onload = function () {
+			document.body.className = '';
+		}
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
+</body>
+
 </html>
